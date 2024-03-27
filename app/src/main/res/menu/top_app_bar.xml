@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/edit"
+        android:title="edit"
+        android:contentDescription="edit"
+        app:showAsAction="ifRoom"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="fav"
+        android:contentDescription="fav"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/more"
+        android:title="more"
+        android:contentDescription="moree"
+        app:showAsAction="never" />
+
+</menu>

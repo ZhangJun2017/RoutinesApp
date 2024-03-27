@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Routines" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="colorPrimary">@color/light_primary_color</item>
+        <item name="colorSurface">@color/light_surface_color</item>
+        <item name="colorOnSurface">@color/light_on_surface_color</item>
+        <item name="colorControlNormal">@color/light_on_surface_color</item>
+    </style>
+
+    <style name="Theme.Routines" parent="Base.Theme.Routines" />
+</resources>
